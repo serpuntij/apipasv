@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import UsersHelper from '../helpers/users.helper';
 import {getRandomItem} from '../helpers/common.helper';
-import ConfigHelper from '../helpers/config.helper'
+import ConfigHelper from '../helpers/config.helper';
 
 describe('users', function () {
     let usersHelper = new UsersHelper();
